@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.card__list {
+.cards__list {
     display: grid;
     grid-auto-rows: auto;
     grid-template-columns: repeat(3, 1fr);
