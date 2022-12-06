@@ -19,3 +19,21 @@ This project is made so all the elements are displayed correctly on popular scre
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
   
 Good luck and have fun!
+
+#### Description 
+
+Creating a website from scratch! Adding the proper format and implementing NEW techniques. Building different interfaces for different device sizes. Creating an interesting new responsive website! 
+
+**Tech and Techniques** 
+
+* HTML5
+* CSS3
+* Figma
+* Grid Layout
+* Responsive Design
+* Interface for Different Devices
+
+**GitHub Pages** 
+
+* [Link to the project on Github Pages](git@github.com:hartdesiree2/se_project_aroundtheus.git)
+
