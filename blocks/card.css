@@ -4,15 +4,11 @@
 }
 
 .card__list {
-    display: flex;
-    flex-direction: column;
     display: grid;
     grid-auto-rows: auto;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    justify-content: space-between;
-    grid-gap: 20px 17px;
-    
+    grid-gap: 17px 20px;
 }
 
 .card {
@@ -43,6 +39,7 @@
 }
 
 .card__title {
+    font-family: "Inter", sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 24px;
