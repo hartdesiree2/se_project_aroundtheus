@@ -32,8 +32,3 @@ Creating a website from scratch! Adding the proper format and implementing NEW t
 * Grid Layout
 * Responsive Design
 * Interface for Different Devices
-
-**GitHub Pages** 
-
-* [Link to the project on Github Pages](git@github.com:hartdesiree2/se_project_aroundtheus.git)
-
