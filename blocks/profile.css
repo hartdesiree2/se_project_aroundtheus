@@ -43,7 +43,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    grid-area: title;
+    grid-area: subtitle;
     margin-top: 14px;
     margin-bottom: 14px;
     margin-left: 40px;
@@ -61,7 +61,7 @@
     border: 1px solid #fff;
     align-self: center;
     cursor: pointer;
-    grid-area: title;
+    grid-area: button;
 }
 
 .profile__edit-button:hover {
