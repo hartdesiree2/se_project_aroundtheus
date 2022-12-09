@@ -32,3 +32,5 @@ Creating a website from scratch! Adding the proper format and implementing NEW t
 * Grid Layout
 * Responsive Design
 * Interface for Different Devices
+
+* [Link to the project on GitHub] ()
