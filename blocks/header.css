@@ -1,13 +1,15 @@
 .header {
-    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
-    
+    position: relative;
 }
 
 .header::after {
-    content: "header";
-    width: 100%;
+    content: "";
+    width: calc(100% - 40px);
     height: 1px;
+    position: absolute;
     background-color: solid rgba(84, 84, 84, 0.7);
+    left: -20px;
+    top: 100%;
 }
 
 .header__logo {
@@ -19,6 +21,7 @@
 }
 
 @media screen and (min-width: 580px) and (max-width: 1000px) {
+
     .header__logo {
         padding-top: 45px;
         padding-bottom: 41px;
@@ -27,6 +30,10 @@
 }
 
 @media screen and (max-width: 580px) {
+
+    .header {
+        width: 100%;
+    }
 
     .header__logo {
         padding-left: 7px;
