@@ -4,12 +4,13 @@
 
 .header::after {
     content: "";
-    width: calc(100% - 40px);
+    width: 100%;
     height: 1px;
     position: absolute;
-    background-color: solid rgba(84, 84, 84, 0.7);
-    left: -20px;
+    background-color: rgba(84, 84, 84, 0.7);
     top: 100%;
+    left: 0;
+    border: solid;
 }
 
 .header__logo {
@@ -22,6 +23,11 @@
 
 @media screen and (min-width: 580px) and (max-width: 1000px) {
 
+    .header::after {
+        width: calc(100% + 40px);
+        left: -20px;
+    }
+
     .header__logo {
         padding-top: 45px;
         padding-bottom: 41px;
@@ -31,8 +37,9 @@
 
 @media screen and (max-width: 580px) {
 
-    .header {
-        width: 100%;
+    .header::after {
+        width: calc(100% + 40px);
+        left: -20px;
     }
 
     .header__logo {
